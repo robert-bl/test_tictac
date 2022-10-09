@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');</style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic/Tac/Toe</title>
+</head>
+
+<body>
+    <div id="game">   
+        <div id="gameHead">
+            <h1 id="tttTitle">Tic Tac Toe</h1>
+        </div>
+        <div id="leftBar"></div>
+        <section id="board">
+            <div>
+                <button class="markButton" id="buttonTL">
+                    <b class="box" id="box0" data-marked="no"></b>
+                </button>
+            </div>
+            <div>
+                <button class="markButton" id="buttonTC">
+                    <b class="box" id="box1"  data-marked="no"></b>
+                </button>
+            </div>
+            <div>
+                <button class="markButton" id="buttonTR">
+                    <b class="box" id="box2"  data-marked="no"></b>
+                </button>
+            </div>
+            <div>
+                <button class="markButton" id="buttonCL">
+                    <b class="box" id="box3"  data-marked="no"></b>
+                </button>
+            </div>
+            <div>
+                <button class="markButton" id="buttonCC">
+                    <b class="box" id="box4"  data-marked="no"></b>
+                </button>
+            </div>
+            <div>
+                <button class="markButton" id="buttonCR">
+                    <b class="box" id="box5"  data-marked="no"></b>
+                </button>
+            </div>
+            <div>
+                <button class="markButton" id="buttonBR">
+                    <b class="box" id="box6"  data-marked="no"></b>
+                </button>
+            </div>
+            <div>
+                <button class="markButton" id="buttonBC">
+                    <b class="box" id="box7"  data-marked="no"></b>
+                </button>
+            </div>
+            <div>
+                <button class="markButton" id="buttonBR">
+                    <b class="box" id="box8"  data-marked="no"></b>
+                </button>
+            </div>
+        </section>
+        <div id="rightBar"></div>
+        <div id="interface">
+            <button height = 20px width = 40px id="reset">New Game</button>
+            <h1 id="prompter"></h1>
+        </div>
+    </div> 
+    <script src="script.js">
+    </script>
+</body>
+</html>
